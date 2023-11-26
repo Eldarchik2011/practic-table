@@ -1,0 +1,26 @@
+tr:last-child {
+    background-color: rgb(255, 230, 0);
+}
+
+tr:hover {
+    background-color: darkseagreen;
+}
+
+input:focus {
+    background-color: rgb(81, 140, 250);
+}
+
+button:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+.text::after {
+    content: ' После';
+    color: blue;
+}
+
+.text::before {
+    content: 'До ';
+    color: rgb(9, 255, 0);
+}
